@@ -18,10 +18,10 @@ source ./log.sh
 logDebug "test debug"
 
 # 情報ログ
-logInfo "test debug"
+logInfo "test info"
 
 # エラーログ
-logError "test debug"
+logError "test error"
 ```
 
 ### 実行結果
