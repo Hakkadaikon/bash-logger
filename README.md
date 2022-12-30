@@ -1,9 +1,9 @@
 # bash-log
 
 ## 概要
-bash用のログです。
-・３段階のログレベル(Debug/Info/Error)に対応しています。
-・ログレベルによって、標準出力に出力されるログが色分けされます。
+bash用のログです。<br>
+・３段階のログレベル(Debug/Info/Error)に対応しています。<br>
+・ログレベルによって、標準出力に出力されるログが色分けされます。<br>
 
 ## 使い方
 ### サンプルコード
@@ -34,15 +34,15 @@ logError "test debug"
 
 ## 定義
 ### ログファイル出力
-ログファイルを出力する場合、LOG_FILE変数の定義を変更して下さい。
-※ 未定義の場合(空文字列)の場合は、ログを出力しません。
+ログファイルを出力する場合、LOG_FILE変数の定義を変更して下さい。<br>
+※ 未定義の場合(空文字列)の場合は、ログを出力しません。<br>
 
 ```bash
 LOG_FILE="./test.log"
 ```
 
 ### ログレベル変更
-ログレベルを変更する場合、LOG_LEVEL変数の定義を変更して下さい。
+ログレベルを変更する場合、LOG_LEVEL変数の定義を変更して下さい。<br>
 
 ```bash
 readonly LOG_LEVEL_DEBUG=0
@@ -52,9 +52,9 @@ readonly LOG_LEVEL=${LOG_LEVEL_DEBUG}
 ```
 
 ### ログ出力時の色変更
-ログ出力時の色を変更する場合、__getLogColor()関数の色定義を変更して下さい。
-LOG_LEVEL_FORE_COLOR : 文字色
-LOG_LEVEL_BACK_COLOR : 背景色
+ログ出力時の色を変更する場合、__getLogColor()関数の色定義を変更して下さい。<br>
+LOG_LEVEL_FORE_COLOR : 文字色<br>
+LOG_LEVEL_BACK_COLOR : 背景色<br>
 
 
 ```bash
