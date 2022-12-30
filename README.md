@@ -1,7 +1,7 @@
-# bash-log
+# bash-logger
 
 ## 概要
-bash用のログです。<br>
+bash用のloggerです。<br>
 ・３段階のログレベル(Debug/Info/Error)に対応しています。<br>
 ・ログレベルによって、標準出力に出力されるログが色分けされます。<br>
 
